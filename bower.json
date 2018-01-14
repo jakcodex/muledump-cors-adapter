@@ -1,8 +1,8 @@
 {
-  "name": "Allow-Control-Allow-Origin: *",
-  "version": "1.0.0",
+  "name": "muledump-cors-adapter",
+  "version": "0.0.1",
   "dependencies": {
     "ionic": "~0.9.27",
-    "jquery": "~2.1.1"
+    "jquery": "~3.2.1"
   }
 }

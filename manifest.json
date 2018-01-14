@@ -1,14 +1,14 @@
 {
-	"name": "Allow-Control-Allow-Origin: *",
-	"version": "1.0.2",
+	"name": "Jakcodex/Muledump CORS Adapter",
+	"version": "0.0.1",
 	"manifest_version": 2,
-	"description": "Allows to you request any site with ajax from any source. Adds to response 'Allow-Control-Allow-Origin: *' header",
+	"description": "Manages necessary CORS headers for usage of Jakcodex/Muledump.",
 	"background": {
 		"scripts": ["background.js"]
 	},
 	"browser_action": {
-		"default_icon": "off.png",
-		"default_title": "Allow-Control-Allow-Origin",
+		"default_icon": "on.png",
+		"default_title": "Jakcodex/Muledump CORS Adapter",
 		"default_popup": "popup.html"
 	},
 	"permissions": [
@@ -19,5 +19,11 @@
 	],
 	"web_accessible_resources": [
 		"on.png","off.png"
-	]
+	],
+	"icons": {
+		"16": "icon-16.png",
+		"32": "icon-32.png",
+		"48": "icon-48.png",
+		"128": "icon-128.png"
+	}
 }

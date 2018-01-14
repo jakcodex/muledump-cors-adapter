@@ -1,6 +1,6 @@
 html {
 	width: 400px;
-	min-height: 394px;
+	height: 400px;
 }
 
 .has-header {
@@ -8,7 +8,7 @@ html {
 	top: 44px !important;
 	height: 350px;
 	overflow-x: hidden;
-	overflow-y: auto;
+	overflow-y: scroll;
 
 }
 
@@ -47,4 +47,20 @@ label.toggle {
 	opacity: 1;
 	line-height: 50px;
 	top: 0;
+}
+
+@keyframes spin {
+	from {
+		transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(360deg);
+	}
+}
+
+.spin {
+	animation-name: spin;
+	animation-duration: 500ms;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
 }

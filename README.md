@@ -1,6 +1,7 @@
-Access-Control-Allow-Origin
-===========================
+# Muledump CORS Adapter
 
-[![Join the chat at https://gitter.im/vitvad/Access-Control-Allow-Origin](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vitvad/Access-Control-Allow-Origin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+This is a fork of the [Access-Control-Allow-Origin](https://github.com/vitvad/Access-Control-Allow-Origin) Chrome extension that has been updated to work specifically with the [Jakcodex/Muledump](https://github.com/jakcodex/muledump) application. 
 
-Chrome extension: https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi
+It addresses issues with the former extension ceasing to work in many situations, and it removes the need for user configuration.
+
+
