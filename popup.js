@@ -44,14 +44,12 @@ app.controller('PopupCtrl', function($scope) {
 		$scope.$apply();
 
         $scope.$watch('active', function(newValue, oldValue) {
-            if ( $scope.active === oldValue ) return;
             chrome.storage.local.set({'active': $scope.active}, function() {
                 chrome.extension.getBackgroundPage().reload(updateUrlsScope);
             });
         });
 
         $scope.$watch('autoUpdate', function(newValue, oldValue) {
-            if ( $scope.autoUpdate === oldValue ) return;
             chrome.storage.local.set({'autoUpdate': $scope.autoUpdate}, function() {
                 chrome.extension.getBackgroundPage().reload(updateUrlsScope, true);
             });

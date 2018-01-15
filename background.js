@@ -69,7 +69,7 @@ var updateUrls = function(callback, force) {
 		}
 
     	var date = (new Date).valueOf();
-    	if ( force === true || (date-result.updateLog.date >= updateTTL) ) {
+    	if ( force === true || (result.autoUpdate === true && date-result.updateLog.date >= updateTTL) ) {
 
     		console.log('MCR -- Requesting updated URLS list...');
     		var xhr = new XMLHttpRequest();
