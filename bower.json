@@ -1,8 +1,0 @@
-{
-  "name": "muledump-cors-adapter",
-  "version": "0.0.1",
-  "dependencies": {
-    "ionic": "~0.9.27",
-    "jquery": "~3.2.1"
-  }
-}
