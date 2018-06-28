@@ -1,6 +1,6 @@
 {
   "name": "Jakcodex/Muledump CORS Adapter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifest_version": 2,
   "description": "Manages necessary CORS headers for usage with Jakcodex/Muledump.",
   "icons": {
