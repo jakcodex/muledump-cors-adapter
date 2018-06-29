@@ -1,3 +1,7 @@
+# 1.0.2
+
+- Updated default URL list
+
 # 1.0.1
 
 - Removed remaining requestHeader references
