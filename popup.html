@@ -14,10 +14,8 @@
 		<div class="has-header">
 			<div class="list">
 				<ion-toggle ng-model="active" toggle-class="toggle-calm">Adapter Enabled</ion-toggle>
-				<ion-toggle ng-model="autoUpdate" toggle-class="toggle-calm">Auto Update URLs</ion-toggle>
 				<div class="item item-divider">
 					Configured URLs
-					<a style="cursor: pointer;" class="icon ion-loop" ng-click="updateUrls();" title="Update Configured URLs"></a>
 				</div>
 				<div class="item" ng-repeat="url in urls">
 					{{url}}

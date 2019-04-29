@@ -1,3 +1,8 @@
+# 1.1.0
+
+- Removed all URL auto update features  
+- Added optional Usage Analytics
+
 # 1.0.2
 
 - Updated default URL list
