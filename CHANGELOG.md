@@ -1,3 +1,23 @@
+# 1.1.5
+
+- UA CID not functioning
+- Added debug mode for logging (disabled by default)
+- Improved changes made in 1.1.3
+
+# 1.1.4
+
+- Analytics.js removed
+- UA now sends analytics with async POSTs
+- Removed UA toggle click tracking in analytics
+
+# 1.1.3
+
+- Only rewrite Jakcodex project requests (instead of all hostname matches)
+
+# 1.1.1 / 1.1.2
+
+- Small UA fix
+
 # 1.1.0
 
 - Removed all URL auto update features  

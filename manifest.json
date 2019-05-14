@@ -1,7 +1,7 @@
 {
   "name": "Jakcodex/Muledump CORS Adapter",
   "short_name": "muledump-cors-adapter",
-  "version": "1.1.0",
+  "version": "1.1.5",
   "manifest_version": 2,
   "description": "Manages necessary CORS headers for usage with Jakcodex/Muledump.",
   "icons": {
@@ -27,6 +27,5 @@
   ],
   "web_accessible_resources": [
       "on.png","off.png"
-  ],
-  "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'"
+  ]
 }
